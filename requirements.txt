@@ -1,0 +1,5 @@
+selenium
+nopo
+ping3
+loguru
+python-dotenv

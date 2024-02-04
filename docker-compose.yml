@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  auto_restart_modem:
+    env_file:
+      - .env
+    image: auto_restart_modem
+    build: .
+    container_name: auto_restart_modem
+    restart: unless-stopped
+    command: python3 check_network.py
