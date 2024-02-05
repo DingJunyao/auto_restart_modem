@@ -30,6 +30,8 @@
 
 ### 直接执行
 
+首先确保设备安装了 Chrome / Chromium 以及 chromedriver，并且正确配置（比如：chromedriver 在 `PATH` 内）。
+
 下载项目，进入到项目目录。
 
 复制 `.env.example` 到 `.env`：
